@@ -10,7 +10,7 @@ body {
   Projeleri içine alan kontainer
 */
 .all-projects {
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -51,3 +51,29 @@ body {
 .project-container.batı-avrupa {
   background-color: rgba(58, 13, 143, 0.5);
 }
+
+
+/***************************************************
+* Form-Page sayfası CSS kodları                    *
+***************************************************/
+.title {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.form-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.form-container > iframe {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+
+

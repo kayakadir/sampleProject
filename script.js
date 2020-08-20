@@ -4,11 +4,18 @@ const batiAvrupa = document.getElementById('batı-avrupa');
 
 
 
-// Functions
-function myFunction(e) {
-  console.log(e.target)
-}
+
 
 
 // Event Listeners
-sibyanOkutma.addEventListener('click', myFunction);
+sibyanOkutma.addEventListener('click', () => {
+  sessionStorage.setItem('title', 'sibyanForm')
+});
+
+esnafOkutma.addEventListener('click', () => {
+  sessionStorage.setItem('title', 'esnafForm')
+});
+
+batiAvrupa.addEventListener('click', () => {
+  sessionStorage.setItem('title', 'batiAvrupaForm')
+});
